@@ -1,6 +1,6 @@
 # Replication Package: "Spatial Price Competition and Buyer Power in the U.S. Beef Packing Industry"
 
-This repository contains the code and data needed to replicate the tables and figures in Moschini and Smith (forthcoming, *American Journal of Agricultural Economics*). The replication package includes raw output from the fixed-point algorithm used to compute the Bertrand-Nash equilibrium, but does not include the algorithm itself. For details on the model and algorithmic procedure, please refer to the manuscript.
+This repository contains the code and data needed to replicate the tables and figures in Moschini and Smith (forthcoming, *American Journal of Agricultural Economics*). The replication package includes raw output from the fixed-point algorithm used to compute the Bertrand-Nash equilibrium. For details on the model and algorithmic procedure, please refer to the manuscript.
 
 ## Directory Structure
 
