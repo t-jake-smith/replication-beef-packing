@@ -317,6 +317,12 @@ for scenario = 1:9
 
 end
 
+%% Save table files
+writetable(results.base.T_summary,'results/Table_3.csv')
+writetable(results.base.T_firm,'results/Table_4.csv')
+writetable(results.mill.T_summary,'results/Table_5.csv')
+writetable(results.T_scenarios,'results/Table_6.csv')
+
 %% Functions
 % Functions to create tables for reporting results
 
@@ -443,9 +449,3 @@ MarkdownPct      = Markdown/Price;
 new_row = table(Scenario,Price,MarkdownPct,Markdown,MarkdownSpatial,MarkdownMulti,MarkdownContract,CapEffect);
 T = [T;new_row];
 end
-
-%% Save table files
-writetable(results.base.T_summary,'results/Table_3.csv')
-writetable(results.base.T_firm,'results/Table_4.csv')
-writetable(results.mill.T_summary,'results/Table_5.csv')
-writetable(results.T_scenarios,'results/Table_6.csv')
